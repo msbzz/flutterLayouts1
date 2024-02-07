@@ -12,7 +12,9 @@ const BoxCard({ Key? key, required this.boxContent }) : super(key: key);
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         boxShadow: kElevationToShadow[3],
-        borderRadius:BorderRadius.circular(3), ),
+        borderRadius:BorderRadius.circular(3),
+        color:Theme.of(context).cardColor, ),
+        
       child: boxContent,
     );
   }
