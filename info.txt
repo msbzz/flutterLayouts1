@@ -34,6 +34,10 @@ Conhecer a propriedade de sombreamento de Widgets para adicionar um novo efeito 
 
   Definição de tema para aplicação
 
+  Personalizando tema da aplicação
 
+  Refatorando cores para um unico arquivo
+
+https://m3.material.io/
 
 
