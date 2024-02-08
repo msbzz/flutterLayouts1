@@ -62,7 +62,9 @@ objetivos 3
 
 4 Construção do cartão
 
-  Criação dos widgets utilizados dentro dos cartões color_dot.dart 
-    obs: necessário indicar o parametro color como sendo opcional (?) devido ao material não reconhecer o map de cores em 'recentActivity'
+  Criação dos widgets que serão utilizados dentro dos cartões. Criando o widget 'ColorDot' 
+    obs: necessário indicar o parametro color como sendo opcional (?) devido ao flutter não reconhecer o map de cores em 'recentActivity'
+
+    Criação dos widgets que serão utilizados dentro dos cartões. Criando o widget 'ContentDivision' 
 
 
