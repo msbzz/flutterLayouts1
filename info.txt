@@ -67,4 +67,6 @@ objetivos 3
 
     Criação dos widgets que serão utilizados dentro dos cartões. Criando o widget 'ContentDivision' 
 
+  Construção do conteudo do app
+
 
