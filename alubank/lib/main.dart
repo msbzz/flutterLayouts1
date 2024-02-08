@@ -1,4 +1,5 @@
 import 'package:alubank/screens/home.dart';
+import 'package:alubank/themes/my_them.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,8 +13,8 @@ const Alubank({ Key? key }) : super(key: key);
   Widget build(BuildContext context){
     return  MaterialApp(
       title:'Alubank',
-      theme: ThemeData.dark(),
-      home: Home(),
+      theme: MyTheme,
+      home: const Home(),
     );
   }
 }
