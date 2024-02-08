@@ -1,3 +1,8 @@
+
+
+https://m3.material.io/
+
+
 projeto figma
 
 https://www.figma.com/file/qmOZR81uY7gb8I0wMLUFCu/Alubank?type=design&node-id=0-1&mode=design&t=nlueGVg9S50AnQdQ-0
@@ -38,6 +43,26 @@ Conhecer a propriedade de sombreamento de Widgets para adicionar um novo efeito 
 
   Refatorando cores para um unico arquivo
 
-https://m3.material.io/
+  Transposição do gradiente de cores para o arquivo centralizado
+
+  Definindo tamanho de fontes centralizadas em my_theme.dart 
+
+
+objetivos 3
+
+   Compreender o que são temas e para que servem;
+   
+   Ver padrões para a criação de um tema customizado;
+   
+   Estabelecer as cores que serão utilizadas no projeto em um arquivo isolado;
+   
+   Desenvolver um novo tema com nossas cores e propriedades tipográficas;
+
+   Adaptar o nosso projeto para utilizar as estilizações do nosso novo tema.
+
+4 Construção do cartão
+
+  Criação dos widgets utilizados dentro dos cartões color_dot.dart 
+    obs: necessário indicar o parametro color como sendo opcional (?) devido ao material não reconhecer o map de cores em 'recentActivity'
 
 

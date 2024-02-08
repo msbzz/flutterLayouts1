@@ -15,8 +15,8 @@ class Header extends StatelessWidget {
         ),
         borderRadius : BorderRadius.vertical(bottom: Radius.circular(10)),
       ),
-      child: const Padding(
-        padding: EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
@@ -27,19 +27,12 @@ class Header extends StatelessWidget {
                 Text.rich(
                   TextSpan(
                     text: '\$',
-                    style: TextStyle(fontSize: 16),
                     children: <TextSpan>[
-                      TextSpan(
-                          text: '1000.00',
-                          style: TextStyle(
-                              fontSize: 28, fontWeight: FontWeight.bold)),
+                      TextSpan(text: '1000.00',style:Theme.of(context).textTheme.bodyLarge),
                     ],
                   ),
                 ),
-                Text(
-                  'Balanço disponivel',
-                  style: TextStyle(fontSize: 16),
-                ),
+                Text('Balanço disponivel'),
               ],
             ),
             Icon(
