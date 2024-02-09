@@ -1,4 +1,5 @@
   
+import 'package:alubank/compoments/sections/account_actions.dart';
 import 'package:alubank/compoments/sections/header.dart';
 import 'package:alubank/compoments/sections/recent_activity.dart';
  
@@ -14,6 +15,7 @@ class Home extends StatelessWidget {
         children: <Widget>[
           Header(),
           RecentActivity(),
+          AccoutActions(),
         ],
       ),
     );

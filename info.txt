@@ -65,8 +65,21 @@ objetivos 3
   Criação dos widgets que serão utilizados dentro dos cartões. Criando o widget 'ColorDot' 
     obs: necessário indicar o parametro color como sendo opcional (?) devido ao flutter não reconhecer o map de cores em 'recentActivity'
 
-    Criação dos widgets que serão utilizados dentro dos cartões. Criando o widget 'ContentDivision' 
+    Criação dos widgets que serão utilizados dentro do cartões. Criando o widget 'ContentDivision' 
 
   Construção do conteudo do app
+    Criação do widget 'RecentActivity', inicio row valores
+
+    Criação do widget 'RecentActivity', finalização
 
 
+objetivos 4
+
+
+ Diferenciar elementos visuais de elementos com conteúdo;
+
+ Entender as necessidades de criar Widgets específicos para esses elementos visuais;
+
+ Aplicar Widgets estilizados na prática: esferas pequenas coloridas, linha para separar seções do conteúdo;
+
+ Praticar o conceito de utilizar todos os recursos que preparamos até o momento para finalizar a seção de RecentActivity.
