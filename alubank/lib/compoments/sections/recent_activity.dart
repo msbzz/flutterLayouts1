@@ -9,8 +9,8 @@ class RecentActivity extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-        padding: const EdgeInsets.all(16),
+    return const Padding(
+        padding:  EdgeInsets.all(16),
         child: BoxCard(boxContent: _RecentActivityContent()));
   }
 }
@@ -35,7 +35,7 @@ class _RecentActivityContent extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Saida'),
+                    const Text('Saida'),
                     Text('\$9900.97',
                         style: Theme.of(context).textTheme.bodyLarge)
                   ],
@@ -51,7 +51,7 @@ class _RecentActivityContent extends StatelessWidget {
                 Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Entrada'),
+                    const Text('Entrada'),
                     Text('\$9933.35',
                         style: Theme.of(context).textTheme.bodyLarge)
                   ],
@@ -60,8 +60,8 @@ class _RecentActivityContent extends StatelessWidget {
             ),
           ],
         ),
-        Padding(
-          padding: const EdgeInsets.only(top: 16.0, bottom: 8.0),
+        const Padding(
+          padding:  EdgeInsets.only(top: 16.0, bottom: 8.0),
           child: Text('Limite de gastos: \$432.93'),
         ),
         Container(
@@ -73,11 +73,11 @@ class _RecentActivityContent extends StatelessWidget {
             color:ThemeColors.recentActivity['income'] ,
           ),
         ),
-        Padding(
-          padding: const EdgeInsets.only(top:8.0,bottom:8.0),
+        const Padding(
+          padding:  EdgeInsets.only(top:8.0,bottom:8.0),
           child:ContentDivision(),
         ),
-        Text('Esse mês você gastou \$1500.00 com jogos. Tente abaixar esse custo!'),
+        const Text('Esse mês você gastou \$1500.00 com jogos. Tente abaixar esse custo!'),
         TextButton(
           onPressed: (){}, 
           child: 

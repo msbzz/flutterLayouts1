@@ -1,13 +1,13 @@
 import 'package:alubank/compoments/box_card.dart';
 import 'package:flutter/material.dart';
 
-class AccoutActions extends StatelessWidget {
-  const AccoutActions({super.key});
+class AccountActions extends StatelessWidget {
+  const AccountActions({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: EdgeInsets.all(16),
+      padding: const EdgeInsets.all(16),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -21,23 +21,23 @@ class AccoutActions extends StatelessWidget {
             children: [
               InkWell(
                 onTap: () {},
-                child: BoxCard(
-                  boxContent: _accountActionsContent(
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
                       icon: Icon(Icons.account_balance_wallet),
                       text: 'Depositar'),
                 ),
               ),
               InkWell(
                 onTap: () {},
-                child: BoxCard(
-                  boxContent: _accountActionsContent(
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
                       icon: Icon(Icons.cached), text: 'Transferir'),
                 ),
               ),
               InkWell(
                 onTap: () {},
-                child: BoxCard(
-                  boxContent: _accountActionsContent(
+                child: const BoxCard(
+                  boxContent: _AccountActionsContent(
                       icon: Icon(Icons.center_focus_strong), text: 'Ler'),
                 ),
               ),
@@ -49,18 +49,18 @@ class AccoutActions extends StatelessWidget {
   }
 }
 
-class _accountActionsContent extends StatelessWidget {
+class _AccountActionsContent extends StatelessWidget {
   final String text;
   final Icon icon;
 
-  const _accountActionsContent(
+  const _AccountActionsContent(
       {Key? key, required this.text, required this.icon})
       : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 72,
+      width: 74,
       child: Column(
         children: [
           Padding(

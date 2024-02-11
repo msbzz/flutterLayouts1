@@ -32,10 +32,10 @@ class Header extends StatelessWidget {
                     ],
                   ),
                 ),
-                Text('Balanço disponivel'),
+                const Text('Balanço disponivel'),
               ],
             ),
-            Icon(
+            const Icon(
               Icons.account_circle,
               size: 42,
             )

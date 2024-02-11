@@ -2,6 +2,10 @@
 
 https://m3.material.io/
 
+https://m3.material.io/styles/typography/type-scale-tokens
+
+https://fonts.google.com/
+
 
 projeto figma
 
@@ -83,3 +87,8 @@ objetivos 4
  Aplicar Widgets estilizados na prática: esferas pequenas coloridas, linha para separar seções do conteúdo;
 
  Praticar o conceito de utilizar todos os recursos que preparamos até o momento para finalizar a seção de RecentActivity.
+
+
+5 - Estilizações finais : ações e tipografia
+
+    implementando 'accountActions', utilizando InkWell,padronizando nova tipografia 'Raleway'
