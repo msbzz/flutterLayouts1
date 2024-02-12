@@ -13,7 +13,7 @@ class AccountActions extends StatelessWidget {
         children: [
           Padding(
             padding: const EdgeInsets.only(bottom: 16.0),
-            child: Text('Account actions',
+            child: Text('Ações da conta',
                 style: Theme.of(context).textTheme.titleMedium),
           ),
           Row(
