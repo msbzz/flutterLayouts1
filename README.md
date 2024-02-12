@@ -4,7 +4,8 @@ Este projeto é fruto do curso de 'Flutter : Estilizando e reproduzindo layouts'
 
 Tratasse de um exercício onde o objetivo é trazer um layout definido no figma para nosso recem criado app flutter chamado de Alubank
  
-  ![image](info/alubankLayout.png)
+  
+  <img src="info/alubankLayout.png" alt="final desenvolvimento header" width="15%"/>
  
 
 ## O desenvolvimento
